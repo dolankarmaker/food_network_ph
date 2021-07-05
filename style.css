@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+   font-size: 60px;
+    color: grey;
+}
+p{
+    font-size: large;
+    color: indigo;
+}
+.brown-color{
+    color: brown;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width : 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-part{
+    background-image: linear-gradient(salmon, honeydew);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(brown,white);
+    padding: 25px 50px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.mid-part{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+.link-button-mid{
+    text-decoration: none;
+    background-image: linear-gradient(purple,white);
+    padding: 25px 50px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.recipes{
+    width : 30%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.recipes img{
+    padding-top: 10%;
+    border-radius: 10px;
+    width: 100%;
+}
+.bottom-part{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram{
+    background: #d2691e;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.social-media{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 200px;
+}
+footer h3{
+    padding-top: 20px;
+    color:lavender;
+}
+footer p{
+    color: lightgray;
+    font-size: medium;
+
+}
