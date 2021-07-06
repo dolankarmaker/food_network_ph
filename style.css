@@ -25,25 +25,31 @@ p{
     width: 100%;
 }
 .top-part{
-    background-image: linear-gradient(salmon, honeydew);
+    background-image: linear-gradient(salmon , honeydew);
 }
 .link-button{
-    text-decoration: none;
-    background-image: linear-gradient(brown,white);
+    text-decoration:none;
+    background-image: linear-gradient(maroon, lightsalmon);
     padding: 25px 50px;
     border-radius: 30px;
+    font-size: large;
     font-weight: bold;
+    color: whitesmoke;
 }
+
 .mid-part{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .link-button-mid{
     text-decoration: none;
-    background-image: linear-gradient(purple,white);
+    background-image: linear-gradient(plum,mediumvioletred);
     padding: 25px 50px;
     border-radius: 30px;
     font-weight: bold;
+    font-size: large;
+    color: mintcream;
 }
 .recipes{
     width : 30%;
